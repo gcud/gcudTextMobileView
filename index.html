@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>gcud文本转移动端浏览</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+支持纯文本文件或直接输入<!--或本工具生成的html-->
+<p>文本第一行不超过15字会成为标题,否则标题为无标题</p>
+<form enctype="multipart/form-data" method="post" action="php/generate.php">
+    <input type="file" name="file" accept="text/plain"><br>
+    <textarea name="content"></textarea><br>
+    <button>生成</button>
+</form>
+
+</body>
+</html>
